@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SB Tunes - your mood refresher is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="img.jpg" alt="Spotify">SB Tunes</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Playlist</li>
+            <li>Help</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best Of Super hit Songs</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="P1.JPG" alt="1">
+                    <span class="songName">FEIN</span>
+                    <span class="songListPlay"><span class="timestamp">04:41<i id="0" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="P2.JPG" alt="2">
+                    <span class="songName">GOAT</span>
+                    <span class="songListPlay"><span class="timestamp">04:48<i id="1" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="P3.JPG" alt="3">
+                    <span class="songName">SHAPE OF YOU</span>
+                    <span class="songListPlay"><span class="timestamp">04:17<i id="2" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="P4.JPG" alt="4">
+                    <span class="songName">LET ME LOVE YOU</span>
+                    <span class="songListPlay"><span class="timestamp">03:02<i id="3" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="P5.JPG" alt="5">
+                    <span class="songName">BABY</span>
+                    <span class="songListPlay"><span class="timestamp">03:17<i id="4" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="P6.JPG" alt="6">
+                    <span class="songName">ATTENTION</span>
+                    <span class="songListPlay"><span class="timestamp">05:33<i id="5" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="P7.JPG" alt="7">
+                    <span class="songName">PERFECT</span>
+                    <span class="songListPlay"><span class="timestamp">06:00<i id="6" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="P8.JPG" alt="8">
+                    <span class="songName">SENORITA</span>
+                    <span class="songListPlay"><span class="timestamp">02:50<i id="7" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="P9.jpg" alt="9">
+                    <span class="songName">FAKIRA</span>
+                    <span class="songListPlay"><span class="timestamp">04:21<i id="8" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="P10.jpg" alt="10">
+                    <span class="songName">TU HAI KI NAHI</span>
+                    <span class="songListPlay"><span class="timestamp">06:29<i id="9" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+            </div>
+            <div class="songBanner"></div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons-->
+            <i class="fa-solid fa-backward-step" id="previous" style="font-size: 30px;"></i>
+            <i class="fa-solid fa-circle-play" id="masterPlay" style="font-size: 30px;"></i>
+            <i class="fa-solid fa-forward-step" id="next" style="font-size: 30px;"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="playing" id="gif"> <span id="masterSongName"Dekhha Tenu></span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/248f362cb3.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
